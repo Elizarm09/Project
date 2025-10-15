@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Usuario</h1>
+    <form id="register-form">
+      <label for="role">Soy:</label>
+      <select id="role" required>
+        <option value="">Elige</option>
+        <option value="estudiante">Estudiante</option>
+        <option value="docente">Docente</option>
+      </select>
+
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" required />
+
+      <div id="student-fields" class="hidden">
+        <label for="course">Curso:</label>
+        <input type="text" id="course" required />
+
+        <label for="level">Nivel:</label>
+        <select id="level">
+          <option value="">Elige</option>
+          <option value="B1">B1</option>
+          <option value="B1+">B1+</option>
+          <option value="B2">B2</option>
+        </select>
+
+        <label for="student-email">Correo electrónico:</label>
+        <input type="email" id="student-email" required />
+
+        <label for="student-password">Contraseña:</label>
+        <input type="password" id="student-password" required />
+      </div>
+
+      <div id="teacher-fields" class="hidden">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" />
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" />
+      </div>
+
+      <button type="submit">Continuar</button>
+    </form>
+
+    <p>¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

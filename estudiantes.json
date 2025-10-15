@@ -1,0 +1,29 @@
+
+[
+  {
+    "nombre": "Elizabeth Román",
+    "curso": "2nd BGU",
+    "nivel": "B1",
+    "email": "elizaroma@gmail.com",
+    "password": "1234",
+    "progreso": {
+    "Grammar": {
+      "actividad1(Grammar)": "completado",
+      "actividad2(Grammar)": "completado"
+    }
+  }
+  },
+  {
+    "nombre": "Samantha Román",
+    "curso": "Iro BGU",
+    "nivel": "B2",
+    "email": "sam@example.com",
+    "password": "5678",
+    "progreso": {
+    "Grammar": {
+      "actividad1(Grammar)": "completado",
+      "actividad2(Grammar)": "completado"
+    }
+  }
+  }
+]
